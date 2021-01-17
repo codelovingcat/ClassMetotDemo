@@ -6,10 +6,11 @@ namespace ClassMetotDemo
     {
         static void Main(string[] args)
         {
-            CustomerManager customer = new CustomerManager();
-            customer.Add();
-            customer.Update();
-            customer.Delete();
+            CustomerManager customerManager = new CustomerManager();
+
+            customerManager.Add();
+            customerManager.Update();
+            customerManager.Delete();
 
             Console.ReadLine();
         }

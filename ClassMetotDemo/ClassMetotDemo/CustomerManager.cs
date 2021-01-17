@@ -8,7 +8,13 @@ namespace ClassMetotDemo
     {
         public void Add()
         {
-            Console.WriteLine("Customer Added!");
+            Customer customer = new Customer();
+            customer.Id = 1;
+            customer.Name = "Ürem";
+            customer.Surname = "Sancaktutan";
+            customer.Adress = "İstanbul";
+
+            Console.WriteLine(customer.Name +" : Customer Added!");
         }
         public void Update()
         {
